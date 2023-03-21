@@ -32,19 +32,36 @@ public class Empregado {
         this.idade = idade;
     }
 
-    public int getTipo(){
+    public int getTipo() {
         return this.tipo;
     }
 
-    public void setTipo(int tipo){
+    public void setTipo(int tipo) {
         this.tipo = tipo;
     }
-    
-}
 
-
-public class TesteEmpregado {
-    public static void main(String[] args){
-        
+    public double getSalario() {
+        return this.salario;
     }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public double getComissao() {
+        return this.comissao;
+    }
+
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+
+    public double getBonus() {
+        return this.bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
 }
